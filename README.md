@@ -42,8 +42,8 @@ This notebook contains scripts for population genetic simulations under fluctuat
 selection. Simulation runs are collected if their final mutant frequencies are 
 exaxtly 0.100, 0.200, ..., 0.900. See Methods in (Song & Zhang, 2023, in review) 
 for details. Pre-generated simulation data are stored in 
-[`Figure3_bin_by_AF_0.01_N200.csv`](./Figure3_bin_by_AF_0.01_N200.csv) and 
-[`FigureS2_bin_by_AF_0.5_N200.csv`](./FigureS2_bin_by_AF_0.5_N200.csv), and can be 
+[`Figure3_bin_by_AF_0.01_N200.csv`](Figure3_bin_by_AF_0.01_N200.csv) and 
+[`FigureS2_bin_by_AF_0.5_N200.csv`](FigureS2_bin_by_AF_0.5_N200.csv), and can be 
 loaded by uncommenting
 ```python
 df = pd.read_csv('Figure3_bin_by_AF_0.01_N200.csv')
@@ -63,7 +63,7 @@ mutant frequency of 0.01 or 0.5. The results are shown in **Figure 3D** and
 is small when the initial mutant frequency is 0.5, we further focused on the 
 simulation runs where $f_E$ contradicts $f_G$ for comparison. Pre-generated simulation 
 data are stored in 
-[`Fix_Loss_contradict.csv`](./Fix_Loss_contradict.csv), and can be loaded by 
+[`Fix_Loss_contradict.csv`](Fix_Loss_contradict.csv), and can be loaded by 
 uncommenting
 ```python
 result_df = pd.read_csv('Fix_Loss_contradict.csv')
