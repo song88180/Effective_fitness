@@ -63,7 +63,7 @@ mutant frequency of 0.01 or 0.5. The results are shown in **Figure 3D** and
 is small when the initial mutant frequency is 0.5, we further focused on the 
 simulation runs where $f_E$ contradicts $f_G$ for comparison. Pre-generated simulation 
 data are stored in 
-[`Fix_Loss_contradict.csv`](Fix_Loss_contradict.csv), and can be loaded by 
+[`Fix_Loss_contradict.csv`](Fix_loss_contradict.csv), and can be loaded by 
 uncommenting
 ```python
 result_df = pd.read_csv('Fix_Loss_contradict.csv')
