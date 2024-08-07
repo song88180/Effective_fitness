@@ -1,7 +1,7 @@
 # Effective fitness under fluctuating selection with genetic drift
 
-Here are analysis scripts used in (Song & Zhang, 2023, in review) titled 
-"Effective fitness under fluctuating selection with genetic drift"
+Here are analysis scripts used in:  
+Siliang Song, Jianzhi Zhang, Effective fitness under fluctuating selection with genetic drift, *G3 Genes|Genomes|Genetics*, Volume 13, Issue 12, December 2023, jkad230, https://doi.org/10.1093/g3journal/jkad230
 
 ### Required software and packages:
 
